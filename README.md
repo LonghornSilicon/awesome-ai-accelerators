@@ -70,6 +70,10 @@ This list is a **curated, opinionated map** of that landscape. It favors canonic
 - [Design Verification](#design-verification)
 - [Physical Design](#physical-design)
 - [University Courses](#university-courses)
+- [Chip Design](#chip-design)
+  - [Blogs & Newsletters](#blogs--newsletters)
+  - [YouTube Channels](#youtube-channels)
+  - [Interactive & Visual](#interactive--visual)
 
 ---
 
@@ -500,4 +504,27 @@ The best openly available courses across the stack.
 - [Berkeley CS152/252 — Computer Architecture](https://inst.eecs.berkeley.edu/~cs152/) — Krste Asanović's architecture sequence.
 - [ETH Zürich — Digital Design & Computer Architecture](https://safari.ethz.ch/digitaltechnik/) — Onur Mutlu's freely recorded lectures.
 - [UW CSE 599W — Systems for ML](https://dlsys.cs.washington.edu/) — Tianqi Chen's ML systems course.
+
+---
+
+## Chip Design
+
+Following the people and publications that explain how chips are actually designed, built, and brought to market — the industry context that connects everything above.
+
+### Blogs & Newsletters
+
+- [SemiAnalysis](https://semianalysis.com/) — Dylan Patel's deep dives on the semiconductor industry, AI hardware, and the supply chain.
+- [The EDA Primer: From RTL to Silicon](https://newsletter.semianalysis.com/p/the-eda-primer-from-rtl-to-silicon) — SemiAnalysis's end-to-end walkthrough of the chip design flow; the single best starting point for the big picture.
+- [Peak Flops](https://substack.com/@peakflops) — A newsletter on GPU and accelerator performance, systems, and the economics of compute.
+
+### YouTube Channels
+
+- [Asianometry](https://www.youtube.com/@Asianometry) — Accessible, well-researched videos on semiconductor history, manufacturing, and the industry.
+- [CalebWritesCode](https://www.youtube.com/@CalebWritesCode) — Hands-on GPU programming and low-level systems tutorials.
+- [Dwarkesh Patel](https://www.youtube.com/@DwarkeshPatel) — Long-form interviews with leading figures in AI and hardware.
+- [3Blue1Brown](https://www.youtube.com/@3blue1brown) — Grant Sanderson's visual explanations of the math and neural networks behind the workloads.
+
+### Interactive & Visual
+
+- [brrrviz](https://brrrviz.com/) — An interactive visualization of GPU architecture and how modern GPUs go brrr.
 
