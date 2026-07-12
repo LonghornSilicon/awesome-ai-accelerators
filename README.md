@@ -515,7 +515,6 @@ Following the people and publications that explain how chips are actually design
 
 - [SemiAnalysis](https://semianalysis.com/) — Dylan Patel's deep dives on the semiconductor industry, AI hardware, and the supply chain.
 - [The EDA Primer: From RTL to Silicon](https://newsletter.semianalysis.com/p/the-eda-primer-from-rtl-to-silicon) — SemiAnalysis's end-to-end walkthrough of the chip design flow; the single best starting point for the big picture.
-- [Peak Flops](https://substack.com/@peakflops) — A newsletter on GPU and accelerator performance, systems, and the economics of compute.
 
 ### YouTube Channels
 
