@@ -40,8 +40,6 @@ This list is a **curated, opinionated map** of that landscape. It favors canonic
   - [Triton](#triton)
   - [ROCm](#rocm)
   - [Metal](#metal)
-  - [OpenCL & SYCL](#opencl--sycl)
-  - [Vulkan Compute](#vulkan-compute)
 - [AI Kernels](#ai-kernels)
   - [GEMM](#gemm)
   - [FlashAttention](#flashattention)
@@ -102,12 +100,18 @@ Understanding the workloads is the prerequisite for accelerating them. This sect
 - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/) — Jay Alammar's visual walkthrough of the architecture.
 - [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/) — Harvard NLP's line-by-line implementation in PyTorch.
 - [BERT](https://arxiv.org/abs/1810.04805) — Bidirectional pretraining that reshaped NLP.
+- [GPT-2: Language Models are Unsupervised Multitask Learners](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf) — Scaling generative pretraining toward zero-shot task transfer.
 - [GPT-3: Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165) — Demonstrated emergent in-context learning at scale.
+- [T5: Exploring the Limits of Transfer Learning](https://arxiv.org/abs/1910.10683) — The unified text-to-text framing of NLP tasks.
 - [Scaling Laws for Neural Language Models](https://arxiv.org/abs/2001.08361) — Kaplan et al.'s power-law relationships between compute, data, and loss.
 - [Training Compute-Optimal LLMs (Chinchilla)](https://arxiv.org/abs/2203.15556) — The compute-optimal scaling result that reset training recipes.
 - [LLaMA](https://arxiv.org/abs/2302.13971) — Efficient open foundation models that catalyzed the open LLM ecosystem.
 - [Mistral 7B](https://arxiv.org/abs/2310.06825) — Grouped-query and sliding-window attention for efficient inference.
+- [DeepSeek-V3](https://arxiv.org/abs/2412.19437) — A 671B fine-grained MoE model trained efficiently with FP8 and MLA.
+- [DeepSeek-R1](https://arxiv.org/abs/2501.12948) — Eliciting strong reasoning through large-scale reinforcement learning.
 - [nanoGPT](https://github.com/karpathy/nanoGPT) — Karpathy's minimal, hackable GPT training and inference codebase.
+- [The Ultra-Scale Playbook](https://huggingface.co/spaces/nanotron/ultrascale-playbook) — Hugging Face's practical guide to training LLMs on GPU clusters (data, tensor, pipeline, and expert parallelism).
+- [The Smol Training Playbook](https://huggingface.co/spaces/HuggingFaceTB/smol-training-playbook) — Hugging Face's end-to-end field guide to building world-class LLMs.
 
 ### Diffusion Models
 
@@ -246,17 +250,6 @@ The lingua franca of accelerator programming. This section covers the major para
 - [Metal Performance Shaders](https://developer.apple.com/documentation/metalperformanceshaders) — Apple's optimized GPU compute primitives.
 - [MLX](https://github.com/ml-explore/mlx) — Apple's NumPy-like array framework for Apple silicon.
 - [Metal Shading Language Specification](https://developer.apple.com/metal/Metal-Shading-Language-Specification.pdf) — The reference for writing Metal compute kernels.
-
-### OpenCL & SYCL
-
-- [OpenCL Guide](https://github.com/KhronosGroup/OpenCL-Guide) — Khronos's introduction to cross-platform parallel programming.
-- [SYCL](https://www.khronos.org/sycl/) — Single-source C++ heterogeneous programming standard.
-- [oneAPI / DPC++](https://www.intel.com/content/www/us/en/developer/tools/oneapi/overview.html) — Intel's SYCL-based cross-architecture toolkit.
-
-### Vulkan Compute
-
-- [Vulkan Compute Acceleration](https://www.khronos.org/blog/vulkan-compute-acceleration) — Using Vulkan for portable GPU compute.
-- [Kompute](https://github.com/KomputeProject/kompute) — A general-purpose Vulkan compute framework.
 
 ---
 
