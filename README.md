@@ -353,7 +353,6 @@ The foundation every accelerator is built on.
 - [Computer Architecture: A Quantitative Approach](https://www.elsevier.com/books/computer-architecture/hennessy/978-0-12-811905-1) — Hennessy and Patterson's definitive graduate text.
 - [Computer Organization and Design](https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-820331-6) — Patterson and Hennessy's undergraduate RISC-V edition.
 - [A New Golden Age for Computer Architecture](https://cacm.acm.org/magazines/2019/2/234352-a-new-golden-age-for-computer-architecture/fulltext) — Hennessy and Patterson's Turing Award lecture on domain-specific architectures.
-- [Onur Mutlu's Computer Architecture Lectures](https://safari.ethz.ch/architecture/) — ETH Zürich's comprehensive, freely available course.
 
 ### Memory Systems & Cache
 
@@ -415,7 +414,6 @@ The chips themselves, organized by class.
 - [Apple Machine Learning Research](https://machinelearning.apple.com/) — Publications on the Apple Neural Engine and on-device ML.
 - [Coral / Edge TPU](https://coral.ai/) — Google's edge inference accelerator.
 - [MLPerf Tiny / TinyML](https://github.com/mlcommons/tiny) — Benchmarks and models for microcontroller-class inference.
-- [Efficient Deep Learning (MIT 6.5940 / TinyML)](https://efficientml.ai/) — Song Han's course on model compression and edge deployment.
 - [A Survey of Accelerator Architectures for DNNs](https://ieeexplore.ieee.org/document/9060877) — Broad coverage of the accelerator design space.
 
 ### FPGA & Reconfigurable
@@ -473,10 +471,9 @@ Following the people and publications that explain how chips are actually design
 
 ## RTL Design
 
-Register-transfer-level design in Verilog and SystemVerilog — the entry point to any accelerator implementation. Start with the textbook, follow the lectures, then build fluency on the practice sites.
+Register-transfer-level design in Verilog and SystemVerilog — the entry point to any accelerator implementation. Start with the textbook, then build fluency on the practice and reference sites.
 
 - **Textbook** — [Digital Design and Computer Architecture](https://www.elsevier.com/books/digital-design-and-computer-architecture-risc-v-edition/harris/978-0-12-820064-3), Harris & Harris. The standard undergraduate text taking you from logic gates to a working RISC-V processor.
-- **Lectures** — [Onur Mutlu — Digital Design & Computer Architecture (ETH Zürich)](https://safari.ethz.ch/digitaltechnik/). A complete, freely recorded lecture series widely regarded as the best online course on the subject.
 - **Practice** — [HDLBits](https://hdlbits.01xz.net/). Interactive Verilog problems with instant feedback; the single most effective way to build RTL coding fluency.
 - **Reference** — [ASIC World](https://www.asic-world.com/verilog/veritut.html). A free, comprehensive Verilog/SystemVerilog tutorial and syntax reference to keep open while you code.
 
@@ -487,7 +484,7 @@ Register-transfer-level design in Verilog and SystemVerilog — the entry point 
 Confirming the RTL does what it should — typically the majority of the effort on a real chip. Learn the methodology from the textbook, then practice UVM on the training sites.
 
 - **Textbook** — [SystemVerilog for Verification](https://link.springer.com/book/10.1007/978-1-4614-0715-7), Spear & Tumbush. The definitive introduction to the SystemVerilog features and testbench techniques used in industry.
-- **Lectures & Resources** — [Verification Academy](https://verificationacademy.com/). Siemens EDA's free hub of courses, the canonical UVM Cookbook, and methodology guides — the go-to reference for DV.
+- **Resources** — [Verification Academy](https://verificationacademy.com/). Siemens EDA's free hub with the canonical UVM Cookbook and methodology guides — the go-to reference for DV.
 - **Training** — [ChipVerify](https://www.chipverify.com/). Free, approachable SystemVerilog and UVM tutorials with worked examples, ideal for getting members productive quickly.
 - **Hands-on** — [cocotb](https://www.cocotb.org/). Write testbenches in Python instead of SystemVerilog; the most accessible on-ramp to writing real verification.
 
@@ -500,7 +497,6 @@ Turning a synthesized netlist into a manufacturable, timing-clean layout (synthe
 - **Textbook** — [VLSI Physical Design: From Graph Partitioning to Timing Closure](https://link.springer.com/book/10.1007/978-90-481-9591-6), Kahng, Lienig, Markov & Hu. The standard text covering every stage of the physical design flow.
 - **Textbook (Circuits)** — [CMOS VLSI Design: A Circuits and Systems Perspective](https://pages.hmc.edu/harris/cmosvlsi/4e/index.html), Weste & Harris. The classic bridge from transistors and layout to full VLSI systems.
 - **Textbook (Timing)** — [Static Timing Analysis for Nanometer Designs](https://link.springer.com/book/10.1007/978-0-387-93820-2), Bhasker & Chadha. The definitive reference for understanding timing closure.
-- **Lectures** — [NPTEL — VLSI Physical Design Automation](https://nptel.ac.in/courses/106105161). A complete, freely available lecture course on the algorithms behind each PD stage.
 - **Training** — [VLSI System Design (VSD)](https://www.vlsisystemdesign.com/). Popular hands-on courses and workshops that walk you through a real RTL-to-GDSII flow.
 - **Hands-on** — [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane). An open, automated RTL-to-GDSII flow on the Sky130 PDK — the best way to actually run physical design end-to-end for free.
 
