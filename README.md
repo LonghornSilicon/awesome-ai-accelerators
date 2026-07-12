@@ -479,6 +479,7 @@ Confirming the RTL does what it should — typically the majority of the effort 
 Turning a synthesized netlist into a manufacturable, timing-clean layout (synthesis → floorplan → placement → CTS → routing → timing/signoff). Ground yourself in the textbooks, then run a full flow hands-on.
 
 - **Textbook** — [VLSI Physical Design: From Graph Partitioning to Timing Closure](https://link.springer.com/book/10.1007/978-90-481-9591-6), Kahng, Lienig, Markov & Hu. The standard text covering every stage of the physical design flow.
+- **Textbook (Circuits)** — [CMOS VLSI Design: A Circuits and Systems Perspective](https://pages.hmc.edu/harris/cmosvlsi/4e/index.html), Weste & Harris. The classic bridge from transistors and layout to full VLSI systems.
 - **Textbook (Timing)** — [Static Timing Analysis for Nanometer Designs](https://link.springer.com/book/10.1007/978-0-387-93820-2), Bhasker & Chadha. The definitive reference for understanding timing closure.
 - **Lectures** — [NPTEL — VLSI Physical Design Automation](https://nptel.ac.in/courses/106105161). A complete, freely available lecture course on the algorithms behind each PD stage.
 - **Training** — [VLSI System Design (VSD)](https://www.vlsisystemdesign.com/). Popular hands-on courses and workshops that walk you through a real RTL-to-GDSII flow.
