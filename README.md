@@ -353,7 +353,7 @@ The foundation every accelerator is built on.
 
 - [Computer Architecture: A Quantitative Approach](https://www.elsevier.com/books/computer-architecture/hennessy/978-0-12-811905-1) — Hennessy and Patterson's definitive graduate text.
 - [Computer Organization and Design](https://www.elsevier.com/books/computer-organization-and-design-risc-v-edition/patterson/978-0-12-820331-6) — Patterson and Hennessy's undergraduate RISC-V edition.
-- [Processor Microarchitecture: An Implementation Perspective](https://link.springer.com/book/10.1007/978-3-031-01755-1) — González, Latorre, and Magklis's concise tour of how out-of-order cores are actually built.
+- [Processor Microarchitecture: An Implementation Perspective](https://dl.icdst.org/pdfs/files/15b09def448c317556dc0fc412aee571.pdf) — González, Latorre, and Magklis's concise tour of how out-of-order cores are actually built.
 - [A New Golden Age for Computer Architecture](https://cacm.acm.org/magazines/2019/2/234352-a-new-golden-age-for-computer-architecture/fulltext) — Hennessy and Patterson's Turing Award lecture on domain-specific architectures.
 - [Onur Mutlu's Computer Architecture Lectures](https://safari.ethz.ch/architecture/) — ETH Zürich's comprehensive, freely available course.
 
