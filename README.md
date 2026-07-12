@@ -143,6 +143,7 @@ Inference — not training — dominates the lifetime compute of a deployed mode
 
 ### Quantization
 
+- [TurboQuant](https://arxiv.org/abs/2504.19874) — Online vector quantization with near-optimal distortion, delivering large KV cache memory savings and attention speedups.
 - [LLM.int8()](https://arxiv.org/abs/2208.07339) — 8-bit matrix multiplication for transformers with outlier handling.
 - [GPTQ](https://arxiv.org/abs/2210.17323) — Accurate post-training quantization to 3–4 bits.
 - [AWQ: Activation-aware Weight Quantization](https://arxiv.org/abs/2306.00978) — Protecting salient weights for low-bit LLM inference.
