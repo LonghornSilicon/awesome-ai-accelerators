@@ -66,6 +66,25 @@ This list is a **curated, opinionated map** of that landscape. It favors canonic
   - [FPGA & Reconfigurable](#fpga--reconfigurable)
   - [RISC-V for AI](#risc-v-for-ai)
 - [Simulators & Modeling](#simulators--modeling)
+- [RTL Design](#rtl-design)
+  - [Verilog & SystemVerilog](#verilog--systemverilog)
+  - [Chisel](#chisel)
+  - [SpinalHDL](#spinalhdl)
+  - [TL-Verilog](#tl-verilog)
+  - [Learning & Practice](#learning--practice)
+- [Design Verification](#design-verification)
+  - [UVM](#uvm)
+  - [cocotb](#cocotb)
+  - [Verilator](#verilator)
+  - [Formal Verification](#formal-verification)
+- [Physical Design](#physical-design)
+  - [Logic Synthesis](#logic-synthesis)
+  - [Floorplanning & Placement](#floorplanning--placement)
+  - [Clock Tree Synthesis](#clock-tree-synthesis)
+  - [Routing](#routing)
+  - [Static Timing Analysis](#static-timing-analysis)
+  - [Power Analysis](#power-analysis)
+  - [DRC / LVS & Signoff](#drc--lvs--signoff)
 - [University Courses](#university-courses)
 
 ---
@@ -446,6 +465,121 @@ Tools for exploring the design space before committing to silicon.
 - [ASTRA-sim](https://github.com/astra-sim/astra-sim) — Distributed ML training platform and network co-design simulator.
 - [LLMCompass](https://github.com/PrincetonUniversity/LLMCompass) — Hardware evaluation for LLM inference.
 - [Roofline: An Insightful Visual Performance Model](https://dl.acm.org/doi/10.1145/1498765.1498785) — Williams, Waterman, and Patterson's foundational model.
+
+---
+
+## RTL Design
+
+Describing hardware behavior at the register-transfer level — the entry point to any accelerator implementation.
+
+### Verilog & SystemVerilog
+
+- [IEEE 1364 (Verilog)](https://ieeexplore.ieee.org/document/1620780) — The long-standing hardware description language standard.
+- [IEEE 1800 (SystemVerilog)](https://ieeexplore.ieee.org/document/8299595) — The unified design and verification language standard.
+- [SystemVerilog for Design](https://link.springer.com/book/10.1007/978-0-387-36495-7) — Sutherland, Davidmann, and Flake's practical RTL reference.
+- [ASIC World Verilog Tutorial](https://www.asic-world.com/verilog/veritut.html) — A free, comprehensive introduction to Verilog syntax and idioms.
+- [sv-lang / slang](https://github.com/MikePopoloski/slang) — A fast, standards-compliant SystemVerilog parser and compiler front-end.
+
+### Chisel
+
+- [Chisel](https://www.chisel-lang.org/) — A Scala-embedded hardware construction language from UC Berkeley.
+- [Chisel Bootcamp](https://github.com/freechipsproject/chisel-bootcamp) — An interactive, notebook-based introduction to Chisel.
+- [Digital Design with Chisel](https://github.com/schoeberl/chisel-book) — Martin Schoeberl's freely available textbook.
+
+### SpinalHDL
+
+- [SpinalHDL](https://github.com/SpinalHDL/SpinalHDL) — A productive Scala-based HDL for RTL generation.
+- [SpinalHDL Documentation](https://spinalhdl.github.io/SpinalDoc-RTD/) — Official guides, tutorials, and language reference.
+- [VexRiscv](https://github.com/SpinalHDL/VexRiscv) — A configurable RISC-V core showcasing SpinalHDL in practice.
+
+### TL-Verilog
+
+- [TL-Verilog](https://www.redwoodeda.com/tl-verilog) — Transaction-Level Verilog for concise, pipeline-friendly design.
+- [Makerchip](https://makerchip.com/) — A free in-browser IDE for TL-Verilog design and simulation.
+- [WARP-V](https://github.com/stevehoover/warp-v) — A parameterized, TL-Verilog RISC-V core generator.
+
+### Learning & Practice
+
+- [HDLBits](https://hdlbits.01xz.net/) — Interactive Verilog practice problems; the best way to build RTL fluency.
+- [Digital Design and Computer Architecture](https://www.elsevier.com/books/digital-design-and-computer-architecture-risc-v-edition/harris/978-0-12-820064-3) — Harris and Harris; the bridge from logic to microarchitecture.
+- [Nand2Tetris](https://www.nand2tetris.org/) — Build a computer from NAND gates up, a superb mental model for digital design.
+
+---
+
+## Design Verification
+
+Ensuring the RTL does what it should — often the majority of the effort on a real chip.
+
+### UVM
+
+- [UVM (Universal Verification Methodology)](https://www.accellera.org/downloads/standards/uvm) — The Accellera standard for constrained-random, reusable testbenches.
+- [UVM Cookbook](https://verificationacademy.com/cookbook/uvm) — Siemens EDA's canonical, example-driven UVM guide.
+- [ChipVerify UVM Tutorials](https://www.chipverify.com/uvm/uvm-tutorial) — A free, approachable walkthrough of UVM concepts.
+
+### cocotb
+
+- [cocotb](https://github.com/cocotb/cocotb) — Coroutine-based cosimulation testbenches written in Python.
+- [cocotb Documentation](https://docs.cocotb.org/) — Official quickstart, tutorials, and API reference.
+- [cocotb-bus / cocotbext](https://github.com/cocotb/cocotb-bus) — Reusable bus drivers and monitors for common protocols.
+
+### Verilator
+
+- [Verilator](https://github.com/verilator/verilator) — The fastest open-source Verilog/SystemVerilog simulator, compiling RTL to C++.
+- [Verilator Manual](https://verilator.org/guide/latest/) — The authoritative reference for build flow and features.
+- [Verilator + GTKWave](https://gtkwave.sourceforge.net/) — A common open flow for waveform dump and inspection.
+
+### Formal Verification
+
+- [SymbiYosys (sby)](https://github.com/YosysHQ/sby) — A front-end driving open-source formal verification flows.
+- [riscv-formal](https://github.com/YosysHQ/riscv-formal) — A formal verification framework for RISC-V processors.
+- [Formal Verification: An Essential Toolkit for Modern VLSI Design](https://www.elsevier.com/books/formal-verification/seligman/978-0-323-95612-3) — Seligman, Schubert, and Kumar's practical reference.
+- [SVA: The Power of Assertions in SystemVerilog](https://link.springer.com/book/10.1007/978-3-319-07139-8) — Mehta's guide to assertion-based verification.
+
+---
+
+## Physical Design
+
+Turning a synthesized netlist into a manufacturable, timing-clean layout.
+
+### Logic Synthesis
+
+- [Yosys](https://github.com/YosysHQ/yosys) — The leading open-source RTL synthesis framework.
+- [ABC](https://github.com/berkeley-abc/abc) — Berkeley's logic synthesis and verification engine used inside many flows.
+- [Logic Synthesis and Verification Algorithms](https://link.springer.com/book/10.1007/978-1-4757-2609-4) — Hachtel and Somenzi's foundational algorithms text.
+
+### Floorplanning & Placement
+
+- [VLSI Physical Design: From Graph Partitioning to Timing Closure](https://link.springer.com/book/10.1007/978-90-481-9591-6) — Kahng, Lienig, Markov, and Hu; the standard PD text.
+- [DREAMPlace](https://github.com/limbo018/DREAMPlace) — Deep-learning-toolkit-accelerated analytical placement.
+- [RePlAce](https://github.com/The-OpenROAD-Project/RePlAce) — OpenROAD's electrostatics-based global placer.
+- [A Graph Placement Methodology for Fast Chip Design](https://www.nature.com/articles/s41586-021-03544-w) — Google's RL-based floorplanning in Nature.
+
+### Clock Tree Synthesis
+
+- [TritonCTS](https://github.com/The-OpenROAD-Project/OpenROAD) — OpenROAD's open-source clock tree synthesis engine.
+- [Clock Distribution Networks in VLSI (survey)](https://ieeexplore.ieee.org/document/93360) — Friedman's foundational overview of clocking.
+
+### Routing
+
+- [FastRoute](https://github.com/The-OpenROAD-Project/OpenROAD) — A fast, high-quality global router integrated into OpenROAD.
+- [TritonRoute](https://github.com/The-OpenROAD-Project/OpenROAD) — OpenROAD's detailed router for DRC-clean interconnect.
+
+### Static Timing Analysis
+
+- [Static Timing Analysis for Nanometer Designs](https://link.springer.com/book/10.1007/978-0-387-93820-2) — Bhasker and Chadha's definitive STA reference.
+- [OpenSTA](https://github.com/parallaxsw/OpenSTA) — An open-source gate-level static timing analyzer.
+
+### Power Analysis
+
+- [Low Power Methodology Manual](https://link.springer.com/book/10.1007/978-0-387-71819-4) — Keating et al.'s guide to low-power design techniques.
+- [OpenROAD PDN & IR Drop (PSM)](https://github.com/The-OpenROAD-Project/OpenROAD) — Open-source power-grid generation and IR-drop analysis.
+
+### DRC / LVS & Signoff
+
+- [Magic VLSI](http://opencircuitdesign.com/magic/) — A classic open-source layout tool with built-in DRC.
+- [Netgen](http://opencircuitdesign.com/netgen/) — Open-source LVS (layout-versus-schematic) comparison.
+- [KLayout](https://www.klayout.de/) — A powerful open layout viewer with a scriptable DRC engine.
+- [OpenROAD Flow Scripts](https://github.com/The-OpenROAD-Project/OpenROAD-flow-scripts) — An end-to-end RTL-to-GDSII flow tying synthesis, place, CTS, route, and signoff together.
 
 ---
 
