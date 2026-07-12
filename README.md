@@ -594,7 +594,6 @@ The best openly available courses across the stack.
 - [CMU 15-418 — Parallel Computer Architecture](https://www.cs.cmu.edu/~418/) — The classic parallelism course.
 - [CMU 10-414/714 — Deep Learning Systems](https://dlsyscourse.org/) — Build a deep learning framework from scratch.
 - [Berkeley CS152/252 — Computer Architecture](https://inst.eecs.berkeley.edu/~cs152/) — Krste Asanović's architecture sequence.
-- [Berkeley EECS 251B — Digital IC Design](https://www2.eecs.berkeley.edu/Courses/) — VLSI and agile hardware design.
 - [ETH Zürich — Digital Design & Computer Architecture](https://safari.ethz.ch/digitaltechnik/) — Onur Mutlu's freely recorded lectures.
 - [UW CSE 599W — Systems for ML](https://dlsys.cs.washington.edu/) — Tianqi Chen's ML systems course.
 
