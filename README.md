@@ -398,6 +398,8 @@ The foundation every accelerator is built on.
 
 The chips themselves, organized by class.
 
+- [AI Accelerators for Large Language Model Inference: Architecture Analysis and Scaling Strategies](https://arxiv.org/abs/2506.00008) — A workload-centric, cross-architecture performance study of commercial AI accelerators (GPU-based, hybrid, and wafer-scale) for LLM inference, comparing memory hierarchies, compute fabrics, and interconnects, and evaluating four scaling strategies for trillion-parameter models.
+
 ### GPUs
 
 - [NVIDIA Hopper Architecture Whitepaper](https://resources.nvidia.com/en-us-tensor-core) — H100: FP8, the Transformer Engine, and TMA.
@@ -522,3 +524,4 @@ The best openly available courses across the stack.
 - [ETH Zürich — Digital Design & Computer Architecture](https://safari.ethz.ch/digitaltechnik/) — Onur Mutlu's freely recorded lectures.
 - [UW CSE 599W — Systems for ML](https://dlsys.cs.washington.edu/) — Tianqi Chen's ML systems course.
 
+   
